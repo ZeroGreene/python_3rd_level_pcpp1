@@ -1,0 +1,52 @@
+dc
+===========================
+Here is an up-to-date syllabus overview for PCPP1 (Professional in Python Programming 1) from the Python Institute:
+===================================
+PCPP1 – Exam Structure Overview
+
+Exam code: PCPP-32-101 (aka “PCPP1”) 
+Python Institute
++1
+
+Total sections: 5 
+Python Institute
++1
+
+Typical number of questions: 45 
+Python Institute
++1
+
+Passing score: ~ 70%
+=============================================
+| Section                                                     | Focus & Key Topics                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **1. Advanced Object-Oriented Programming (OOP)**           | — Definitions: class, instance, object, attribute, method, type, class vs instance variables, superclasses/subclasses. ([Python Institute][1])  <br> — Use of `__init__`, creating methods & variables, calling methods, attribute access. ([Python Institute][2])  <br> — Deeper OOP: magic / special methods (e.g. `__str__`, comparison, operator overloading), working with containers via special methods, customizing behavior via dunder methods. ([Edusum][3])  <br> — (Depending on version) advanced OOP techniques like inheritance & polymorphism, extended class hierarchies, maybe more advanced class-level/instance-level behavior. ([Python Institute][4])                                                                                                                                                                |
+| **2. Coding Conventions, Best Practices & Standardization** | Understanding concepts around coding style and readability: <br> — What are PEP 8, PEP 20 (“Zen of Python”), PEP 257 (docstring conventions), and general philosophy/standards of Python code. ([Python Institute][1]) <br> — Applying PEP 8 style: indentation, line length, whitespace, naming conventions, module imports layout, string quoting/whitespace rules, comment & docstring usage. ([Python Institute][1]) <br> — Using documentation strings and optionally type hints for code clarity. ([Python Institute][1])                                                                                                                                                                                                                                                                                                            |
+| **3. GUI Programming**                                      | Basics of graphical user-interface programming: <br> — Concepts: GUI paradigms, event-driven programming, widgets/controls (windows, buttons, labels, input fields, etc.), events/callbacks. ([Python Institute][1]) <br> — Using standard Python GUI toolkit (commonly tkinter): creating windows, main loop, adding widgets (buttons, labels, frames), laying out widgets (geometry managers like grid/place), handling events, building simple GUI apps. ([Python Institute][1]) <br> — Handling user inputs, event binding, widget methods/properties, drawing (canvas), validating input, showing dialogs. ([Python Institute][1])                                                                                                                                                                                                    |
+| **4. Network Programming**                                  | Basic network programming & working with online data: <br> — Fundamentals: sockets, client-server architecture, addresses/ports/protocols, connection-oriented vs connectionless communication. ([Python Institute][1]) <br> — Working with sockets in Python: creating socket connections, sending and receiving data via `send()` / `recv()`, handling errors/exceptions. ([Python Institute][2]) <br> — Working with data formats for network communication: e.g. JSON (serializing/deserializing via Python’s `json` module), and (optionally) XML — reading/parsing — for exchanging structured data. ([Python Institute][1]) <br> — Basic REST client: using HTTP methods (GET, POST, PUT, DELETE), CRUD operations, sending requests, processing responses, understanding response status codes. ([Python Institute][1])            |
+| **5. File Processing & Program-Environment Interaction**    | Working with data files, databases, configuration, logging, environment interaction: <br> — Database work: using the built-in `sqlite3` module — creating/closing connections, creating tables, inserting/reading/updating/deleting records, using cursors, executing queries. ([Python Institute][1]) <br> — Parsing and generating structured data: reading/writing CSV files (with `csv` module), parsing and building XML files (with `xml` module), manipulating XML trees. ([Python Institute][1]) <br> — Working with configuration files: using `configparser` to read/write `.ini` files, interpolation, managing configuration data. ([Python Institute][1]) <br> — Logging: using `logging` module to record events, manage log levels, create loggers/handlers/formatters, customizing logging output. ([Python Institute][1]) |
+
+[1]: https://pythoninstitute.org/pcpp1-exam-syllabus?utm_source=chatgpt.com "PCPP-32-10x Exam Syllabus"
+[2]: https://www.pythoninstitute.org/pcpp1-exam-syllabus?utm_source=chatgpt.com "PCPP-32-10x Exam Syllabus"
+[3]: https://www.edusum.com/python-institute/python-institute-professional-python-programmer-level-1-pcpp-32-101-exam-syllabus?utm_source=chatgpt.com "Python Institute PCPP1 Certification Syllabus and Prep Guide | EDUSUM"
+[4]: https://www.pythoninstitute.org/certification/pcpp-certification-professional/?utm_source=chatgpt.com "PCPP1"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
+What This Means — Skills Expected of a PCPP1 Candidate
+
+Someone aiming for PCPPIf you like — I can pull up a full PCPP1 syllabus PDF (or a markdown-checklist version) for you — many people find that useful — do you want me to build it with the sub-sub-topics (e.g. GUI → widgets, layout, events; File I/O → csv, xml, logging, config)?1 should be comfortable beyond basic Python: they should be able to
+
+design and implement classes and OOP-based architectures, potentially using special / magic methods for custom behavior,
+
+write Python code following community-standard style and conventions (PEP 8 / PEP 257 / PEP 20), for readability and maintainability,
+
+build basic GUI applications, using a toolkit like tkinter, with events, widgets, layout managers, etc.,
+
+write network-aware Python programs: communicate via sockets or HTTP, send/receive JSON or XML, understand RESTful concepts, integrate with web services or APIs,
+
+store, read, write, and manage data — from databases (SQLite), flat files (CSV, XML), configs, and log files — enabling them to build “real-world” applications that persist data and handle I/O.
+
+In short: instead of being limited to writing scripts, a PCPP1-certified programmer should be able to build medium-sized, maintainable applications with GUI, data persistence, network communication, and correct structure + style.
+
+=============================================
